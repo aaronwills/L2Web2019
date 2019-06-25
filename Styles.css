@@ -1,3 +1,102 @@
-html {
-    background-color: red;
+@font-face {
+    font-family: Technicbold;
+    src: url(fonts/Technicbold.ttf);
 }
+
+@font-face {
+    font-family: Swiss;
+    src: url(fonts/Swiss.ttf);
+}
+
+html {
+    background-color: dimgray;
+    background-image: url(images/BackG.png);
+    background-size: 100%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.nav {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Technicbold;
+    padding: 4vh 0px;
+    
+
+}
+
+a {
+    Color: #585858;
+}
+
+a:active {
+    color: #969696;
+} 
+
+a:hover {
+    color: #969696;    
+}
+
+
+img {
+    margin: -2.5vh 1%;
+    position: absolute;
+    width: 20vh;
+    font-family: Technicbold;
+}
+
+.nav li {
+    margin: 0.0000001vh 6%;
+    font-family: Technicbold;
+    font-size: 5vh;
+}
+
+.left {
+    width: 300vh;
+    background-color: rgba(91, 91, 91, 0.82);
+    min-height: 65vh;
+    border-radius: 2vh;
+    margin: -2vh 6%;
+}
+.nav1 {
+    width: 100%;
+    background-color: #5364af;
+    min-height: 0.5vh;
+    margin-top: 3.5vh;
+    
+}
+
+.nav2 {
+    width: 100%;
+    background-color: #1c85a5;
+    min-height: 0.5vh;
+    
+    
+}
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 9vh;
+    font-family: Technicbold;
+}
+
+footer {
+	background-color:rgb(74 ,74 ,74 );
+	bottom: 0;
+	font-size: 2vh;
+	padding: 1vh;
+	width: 99%;
+    margin-top: -7vh;
+    vertical-align: bottom;
+    text-align: right;
+    margin: -3vh 0%;
+}
+
