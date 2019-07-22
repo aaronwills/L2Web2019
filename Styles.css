@@ -12,6 +12,7 @@ html {
     background-color: dimgray;
     background-image: url(images/BackG.png);
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 * {
@@ -114,4 +115,20 @@ footer {
     margin: -3vh 0%;
     
 }
+
+.products {
+	display: inline-block;
+	width: 50%;
+	margin: 20px 2%;
+}
+
+.products img {
+
+}
+
+.products p {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
 
