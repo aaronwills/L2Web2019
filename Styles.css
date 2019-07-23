@@ -15,6 +15,14 @@ html {
     background-attachment: fixed;
 }
 
+.productpage {
+    width: 175vh;
+    background-color: rgba(91, 91, 91, 0.82);
+    min-height: 65vh;
+    border-radius: 2vh;
+    margin: 7vh;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -44,14 +52,15 @@ a:hover {
 }
 
 
-img {
+.logoimg {
     margin: -2.5vh 1%;
     position: absolute;
     font-family: Technicbold;
 }
 
+
 .nav li {
-    margin: 0.0000001vh 6%;
+    margin: auto;
     font-family: Technicbold;
     font-size: 5vh;
 }
@@ -64,9 +73,9 @@ img {
     margin: -2vh;
 }
 
+
 .right {
     margin-left: 68vh;
-    margin: 0vh 60vh 6% ;
     margin-top: -60vh;
     width: 500vh;
 }
@@ -75,7 +84,6 @@ img {
     margin: 0vh 60vh 6% ;
     margin-top: -60vh;
     width: 500vh;
-    
 }
 
 .nav1 {
@@ -130,5 +138,17 @@ footer {
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 }
+
+h1{
+    text-align: center;
+}
+
+.images {
+    margin-bottom: 3vh;
+    width: 70vh;
+    text-align: center; 
+    
+}
+
 
 
